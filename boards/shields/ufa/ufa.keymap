@@ -92,7 +92,7 @@
 
         limiter {
             layers = <BASE LOWER RAISE ADJUST>;
-            input-processors = <&zip_report_rate_limit 15>;
+            input-processors = <&zip_report_rate_limit 10>;
         };
     };
 
@@ -119,7 +119,7 @@
 
         RAISE {
             bindings = <
-&kp LC(C)  &kp LC(P)  &kp ENTER  &lt ADJUST ESC  &trans
+&kp LC(C)  &kp LC(V)  &kp ENTER  &lt ADJUST ESC  &trans
             >;
 
             sensor-bindings = <&rot_enc_scroll SCRL_LEFT SCRL_RIGHT>;
