@@ -127,7 +127,7 @@
 
         ADJUST {
             bindings = <
-&prev_tab  &next_tab  &kp LC(LS(F5))  &trans  &trans
+&BT_PRV  &BT_NXT  &BT_CLR_ALL  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DELETE BACKSPACE>;
